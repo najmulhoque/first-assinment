@@ -1,34 +1,45 @@
 * {
-  margin: 0;
+    margin: 0;
     font-family: 'Work Sans';
-   
+    padding: 0;
+
 
 }
 
-.header{
-    padding-top: 0;
+.header {
+
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
-    background-position: center;
+
 }
 
 /* this is the banner part */
 .banner-title {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 65px;
     color: #151414;
+    text-align: right;
 
 }
 
 .banner {
-    margin: 216px 230px 364px 850px;
+    padding-top: 250px;
+    margin: 0px 230px 364px 840px;
+    text-align: right;
 }
+
 
 
 .banner-description {
     font-weight: 400;
-    font-size: 16px;}
+    text-align: right;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+
 
 
 .primary-text {
@@ -37,11 +48,159 @@
     color: #FFFFFF;
     background: #F15B22;
     border-radius: 5px;
+    width: 160px;
+    height: 64px;
+
+}
+
+button {
+    margin-left: 250px;
+}
+
+.main-part {
+    padding-left: 250px;
+    padding-top: 250px;
+}
+
+.country {
+    padding-top: 8;
+}
+
+.text-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+}
+
+.text-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.person {
+    margin-left: 150px;
+    padding-top: 70px;
+
+}
+
+.my-all-plane {
+    display: flex;
+    gap: 90px;
+
+}
+
+.title {
     text-align: center;
+}
+
+.plane-description {
+    text-align: center;
+}
+
+.my-all-plane {
+    margin-left: 400px;
+}
+
+.my-plane-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+}
+
+.watch {
+    background-image: url('/images/watch.png');
+    background-position: center;
+    width: 1140px;
+    height: 230px;
+    border-radius: 8px;
+    margin: 130px 230px;
+
+}
+
+.watch h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 46px;
+    width: 600px;
+    height: 182px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+.middle {
+    display: flex;
+    padding-top: 100px;
+    gap: 90px;
+    margin: 130px;
+}
+
+/* footer part */
+.footer {
+    padding-top: 100px;
+    background-color: #151414;
+    width: auto;
+    height: 500px;
+    display: flex;
+    gap: 300px;
+
+}
+
+.information-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-top: 100px;
+    padding-left: 230px;
+    padding-bottom: 20px;
+}
+
+.information {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+
+
+.information {
+    margin-left: 100px;
+}
+
+.contract {
+    color: #FFFFFF;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.primary-text2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
     width: 160px;
     height: 64px;
 }
 
-.btn-description {
-    margin: 200px 230px 264px 870px;
+.logo-fty {
+    padding-left: 50px;
+}
+
+input {
+
+    width: 325px;
+    height: 64px;
+    left: 1046px;
+    top: 2842.26px;
 }
